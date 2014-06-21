@@ -21,6 +21,8 @@ KEY FEATURES
 
 7) Export saved account details as password protected pdf
 
+8) Localization friendly
+
 
 [![Dhakir Video](http://img.youtube.com/vi/mv7xCzZczU8/0.jpg)](https://www.youtube.com/watch?v=mv7xCzZczU8)
 
