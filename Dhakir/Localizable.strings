@@ -1,0 +1,25 @@
+﻿
+"LOGIN_PASSWORD_PROMPT_MESSAGE" = "Please enter your password";
+"LOGIN_PASSWORD_INCORRECT_MESSAGE" = "Incorrect password, try again";
+"LOGIN_RESET_WARNING_TITLE" =  "Are you sure you want to reset? All data will be erased and app will be set to default settings!";
+"LOGIN_RESET_ACTION_SHEET_BUTTON" = "RESET";
+"LOGIN_RESET_BUTTON_TEXT" = "Reset";
+"LOGIN_BUTTON_TEXT" = "Login";
+"LOGIN_RESET_CONFIRMATION" = "App is now reset, you may login without a password";
+"CANCEL" = "Cancel";
+"DELETE" = "DELETE";
+
+"SETTINGS_DELETE_ACTION_TITLE" = "Do you really want to delete all your data?";
+
+"SETTINGS_EXPORT_SUBJECT" = "Dhakir : ";
+
+"SUCCESS" = "Success";
+"SETTINGS_DATA_DELETED_CONFIRMATION_MESSAGE" = "Data was deleted successfully.";
+
+"SETTINGS_EMAIL_BODY"= "This password protected pdf contains all your passwords. Please use the app password to unlock the pdf.";
+
+"PASSWORDS"="PASSWORDS";
+
+"NO_DATA" = "No Data !";
+
+"ERROR" = "Error";

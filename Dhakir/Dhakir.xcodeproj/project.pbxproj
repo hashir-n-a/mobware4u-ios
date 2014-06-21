@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0029C5194ED0D700AE08EC /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0029C4194ED0D700AE08EC /* JNKeychain.m */; };
+		2D0029CB194ED35900AE08EC /* m4u_DbUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0029CA194ED35900AE08EC /* m4u_DbUtils.m */; };
+		2D0029F5194F05F000AE08EC /* m4u_FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0029F4194F05F000AE08EC /* m4u_FileUtils.m */; };
+		2D0029F8194F3E8100AE08EC /* m4u_EncryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0029F7194F3E8100AE08EC /* m4u_EncryptUtils.m */; };
+		2D0029FB194F3F3D00AE08EC /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0029FA194F3F3D00AE08EC /* NSData+Encryption.m */; };
+		2D0029FE19501B7C00AE08EC /* m4u_ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0029FD19501B7C00AE08EC /* m4u_ViewUtils.m */; };
+		2D002A0019501CBF00AE08EC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0029FF19501CBF00AE08EC /* Localizable.strings */; };
+		2D002A0A1950318C00AE08EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D002A051950318C00AE08EC /* Main.storyboard */; };
+		2D002A0F1950368D00AE08EC /* m4u_CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D002A0E1950368D00AE08EC /* m4u_CommonUtils.m */; };
+		2D6B1583194C247100C1D815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1582194C247100C1D815 /* Foundation.framework */; };
+		2D6B1585194C247100C1D815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1584194C247100C1D815 /* CoreGraphics.framework */; };
+		2D6B1587194C247100C1D815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1586194C247100C1D815 /* UIKit.framework */; };
+		2D6B1589194C247100C1D815 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1588194C247100C1D815 /* CoreData.framework */; };
+		2D6B158F194C247100C1D815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D6B158D194C247100C1D815 /* InfoPlist.strings */; };
+		2D6B1591194C247100C1D815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B1590194C247100C1D815 /* main.m */; };
+		2D6B1595194C247100C1D815 /* m4u_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B1594194C247100C1D815 /* m4u_AppDelegate.m */; };
+		2D6B159B194C247100C1D815 /* Dhakir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B1599194C247100C1D815 /* Dhakir.xcdatamodeld */; };
+		2D6B159E194C247100C1D815 /* m4u_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B159D194C247100C1D815 /* m4u_MasterViewController.m */; };
+		2D6B15A1194C247100C1D815 /* m4u_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B15A0194C247100C1D815 /* m4u_DetailViewController.m */; };
+		2D6B15A3194C247100C1D815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6B15A2194C247100C1D815 /* Images.xcassets */; };
+		2D6B15AA194C247100C1D815 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B15A9194C247100C1D815 /* XCTest.framework */; };
+		2D6B15AB194C247100C1D815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1582194C247100C1D815 /* Foundation.framework */; };
+		2D6B15AC194C247100C1D815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1586194C247100C1D815 /* UIKit.framework */; };
+		2D6B15AD194C247100C1D815 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B1588194C247100C1D815 /* CoreData.framework */; };
+		2D6B15B5194C247100C1D815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D6B15B3194C247100C1D815 /* InfoPlist.strings */; };
+		2D6B15B7194C247100C1D815 /* DhakirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B15B6194C247100C1D815 /* DhakirTests.m */; };
+		2D6B15C2194C28E500C1D815 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B15C1194C28E500C1D815 /* Data.m */; };
+		2D6B15C8194D9F8B00C1D815 /* m4u_LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B15C7194D9F8B00C1D815 /* m4u_LoginViewController.m */; };
+		2D6B15CB194DADB200C1D815 /* m4u_SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B15CA194DADB200C1D815 /* m4u_SettingsViewController.m */; };
+		2D77662019511EC400074D8B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D77661F19511EC400074D8B /* QuartzCore.framework */; };
+		2D7766231951261700074D8B /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7766221951261700074D8B /* PDFRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D6B15AE194C247100C1D815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6B1577194C247100C1D815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6B157E194C247100C1D815;
+			remoteInfo = Dhakir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0029C3194ED0D700AE08EC /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKeychain.h; sourceTree = "<group>"; };
+		2D0029C4194ED0D700AE08EC /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
+		2D0029C9194ED35900AE08EC /* m4u_DbUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_DbUtils.h; sourceTree = "<group>"; };
+		2D0029CA194ED35900AE08EC /* m4u_DbUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_DbUtils.m; sourceTree = "<group>"; };
+		2D0029ED194EDDF200AE08EC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2D0029F3194F05F000AE08EC /* m4u_FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_FileUtils.h; sourceTree = "<group>"; };
+		2D0029F4194F05F000AE08EC /* m4u_FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_FileUtils.m; sourceTree = "<group>"; };
+		2D0029F6194F3E8100AE08EC /* m4u_EncryptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_EncryptUtils.h; sourceTree = "<group>"; };
+		2D0029F7194F3E8100AE08EC /* m4u_EncryptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_EncryptUtils.m; sourceTree = "<group>"; };
+		2D0029F9194F3F3D00AE08EC /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		2D0029FA194F3F3D00AE08EC /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		2D0029FC19501B7C00AE08EC /* m4u_ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_ViewUtils.h; sourceTree = "<group>"; };
+		2D0029FD19501B7C00AE08EC /* m4u_ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_ViewUtils.m; sourceTree = "<group>"; };
+		2D0029FF19501CBF00AE08EC /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 0; name = Localizable.strings; path = ../Localizable.strings; sourceTree = "<group>"; usesTabs = 0; };
+		2D002A061950318C00AE08EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		2D002A0D1950368D00AE08EC /* m4u_CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_CommonUtils.h; sourceTree = "<group>"; };
+		2D002A0E1950368D00AE08EC /* m4u_CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_CommonUtils.m; sourceTree = "<group>"; };
+		2D6B157F194C247100C1D815 /* Dhakir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dhakir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6B1582194C247100C1D815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D6B1584194C247100C1D815 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D6B1586194C247100C1D815 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D6B1588194C247100C1D815 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2D6B158C194C247100C1D815 /* Dhakir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dhakir-Info.plist"; sourceTree = "<group>"; };
+		2D6B158E194C247100C1D815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D6B1590194C247100C1D815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D6B1592194C247100C1D815 /* Dhakir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dhakir-Prefix.pch"; sourceTree = "<group>"; };
+		2D6B1593194C247100C1D815 /* m4u_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m4u_AppDelegate.h; sourceTree = "<group>"; };
+		2D6B1594194C247100C1D815 /* m4u_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m4u_AppDelegate.m; sourceTree = "<group>"; };
+		2D6B159A194C247100C1D815 /* Dhakir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dhakir.xcdatamodel; sourceTree = "<group>"; };
+		2D6B159C194C247100C1D815 /* m4u_MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m4u_MasterViewController.h; sourceTree = "<group>"; };
+		2D6B159D194C247100C1D815 /* m4u_MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m4u_MasterViewController.m; sourceTree = "<group>"; };
+		2D6B159F194C247100C1D815 /* m4u_DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m4u_DetailViewController.h; sourceTree = "<group>"; };
+		2D6B15A0194C247100C1D815 /* m4u_DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m4u_DetailViewController.m; sourceTree = "<group>"; };
+		2D6B15A2194C247100C1D815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D6B15A8194C247100C1D815 /* DhakirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhakirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6B15A9194C247100C1D815 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2D6B15B2194C247100C1D815 /* DhakirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DhakirTests-Info.plist"; sourceTree = "<group>"; };
+		2D6B15B4194C247100C1D815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D6B15B6194C247100C1D815 /* DhakirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhakirTests.m; sourceTree = "<group>"; };
+		2D6B15C0194C28E500C1D815 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		2D6B15C1194C28E500C1D815 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		2D6B15C6194D9F8B00C1D815 /* m4u_LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_LoginViewController.h; sourceTree = "<group>"; };
+		2D6B15C7194D9F8B00C1D815 /* m4u_LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_LoginViewController.m; sourceTree = "<group>"; };
+		2D6B15C9194DADB200C1D815 /* m4u_SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_SettingsViewController.h; sourceTree = "<group>"; };
+		2D6B15CA194DADB200C1D815 /* m4u_SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_SettingsViewController.m; sourceTree = "<group>"; };
+		2D77661F19511EC400074D8B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D7766211951261700074D8B /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRenderer.h; sourceTree = "<group>"; };
+		2D7766221951261700074D8B /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRenderer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6B157C194C247100C1D815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D77662019511EC400074D8B /* QuartzCore.framework in Frameworks */,
+				2D6B1585194C247100C1D815 /* CoreGraphics.framework in Frameworks */,
+				2D6B1589194C247100C1D815 /* CoreData.framework in Frameworks */,
+				2D6B1587194C247100C1D815 /* UIKit.framework in Frameworks */,
+				2D6B1583194C247100C1D815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6B15A5194C247100C1D815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B15AA194C247100C1D815 /* XCTest.framework in Frameworks */,
+				2D6B15AD194C247100C1D815 /* CoreData.framework in Frameworks */,
+				2D6B15AC194C247100C1D815 /* UIKit.framework in Frameworks */,
+				2D6B15AB194C247100C1D815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0029C6194ED0F600AE08EC /* encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				2D0029C3194ED0D700AE08EC /* JNKeychain.h */,
+				2D0029C4194ED0D700AE08EC /* JNKeychain.m */,
+				2D0029F9194F3F3D00AE08EC /* NSData+Encryption.h */,
+				2D0029FA194F3F3D00AE08EC /* NSData+Encryption.m */,
+			);
+			name = encrypt;
+			sourceTree = "<group>";
+		};
+		2D0029C7194ED11000AE08EC /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B15C6194D9F8B00C1D815 /* m4u_LoginViewController.h */,
+				2D6B15C7194D9F8B00C1D815 /* m4u_LoginViewController.m */,
+				2D6B159C194C247100C1D815 /* m4u_MasterViewController.h */,
+				2D6B159D194C247100C1D815 /* m4u_MasterViewController.m */,
+				2D6B159F194C247100C1D815 /* m4u_DetailViewController.h */,
+				2D6B15A0194C247100C1D815 /* m4u_DetailViewController.m */,
+				2D6B15C9194DADB200C1D815 /* m4u_SettingsViewController.h */,
+				2D6B15CA194DADB200C1D815 /* m4u_SettingsViewController.m */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		2D0029CC194EDAB000AE08EC /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				2D7766211951261700074D8B /* PDFRenderer.h */,
+				2D7766221951261700074D8B /* PDFRenderer.m */,
+			);
+			name = pdf;
+			sourceTree = "<group>";
+		};
+		2D0029F2194F05DF00AE08EC /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D0029C9194ED35900AE08EC /* m4u_DbUtils.h */,
+				2D0029CA194ED35900AE08EC /* m4u_DbUtils.m */,
+				2D0029F6194F3E8100AE08EC /* m4u_EncryptUtils.h */,
+				2D0029F7194F3E8100AE08EC /* m4u_EncryptUtils.m */,
+				2D0029F3194F05F000AE08EC /* m4u_FileUtils.h */,
+				2D0029F4194F05F000AE08EC /* m4u_FileUtils.m */,
+				2D0029FC19501B7C00AE08EC /* m4u_ViewUtils.h */,
+				2D0029FD19501B7C00AE08EC /* m4u_ViewUtils.m */,
+				2D002A0D1950368D00AE08EC /* m4u_CommonUtils.h */,
+				2D002A0E1950368D00AE08EC /* m4u_CommonUtils.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		2D002A041950318C00AE08EC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2D002A051950318C00AE08EC /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = Dhakir/Base.lproj;
+			sourceTree = "<group>";
+		};
+		2D16C0C31955E021007E0BDE /* objs */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B15C0194C28E500C1D815 /* Data.h */,
+				2D6B15C1194C28E500C1D815 /* Data.m */,
+			);
+			name = objs;
+			sourceTree = "<group>";
+		};
+		2D6B1576194C247100C1D815 = {
+			isa = PBXGroup;
+			children = (
+				2D002A041950318C00AE08EC /* Base.lproj */,
+				2D6B158A194C247100C1D815 /* Dhakir */,
+				2D6B15B0194C247100C1D815 /* DhakirTests */,
+				2D6B1581194C247100C1D815 /* Frameworks */,
+				2D6B1580194C247100C1D815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6B1580194C247100C1D815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B157F194C247100C1D815 /* Dhakir.app */,
+				2D6B15A8194C247100C1D815 /* DhakirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6B1581194C247100C1D815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D77661F19511EC400074D8B /* QuartzCore.framework */,
+				2D0029ED194EDDF200AE08EC /* libz.dylib */,
+				2D6B1582194C247100C1D815 /* Foundation.framework */,
+				2D6B1584194C247100C1D815 /* CoreGraphics.framework */,
+				2D6B1586194C247100C1D815 /* UIKit.framework */,
+				2D6B1588194C247100C1D815 /* CoreData.framework */,
+				2D6B15A9194C247100C1D815 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D6B158A194C247100C1D815 /* Dhakir */ = {
+			isa = PBXGroup;
+			children = (
+				2D16C0C31955E021007E0BDE /* objs */,
+				2D0029F2194F05DF00AE08EC /* utils */,
+				2D0029CC194EDAB000AE08EC /* pdf */,
+				2D0029C7194ED11000AE08EC /* viewControllers */,
+				2D0029C6194ED0F600AE08EC /* encrypt */,
+				2D6B1593194C247100C1D815 /* m4u_AppDelegate.h */,
+				2D6B1594194C247100C1D815 /* m4u_AppDelegate.m */,
+				2D6B15A2194C247100C1D815 /* Images.xcassets */,
+				2D6B1599194C247100C1D815 /* Dhakir.xcdatamodeld */,
+				2D6B158B194C247100C1D815 /* Supporting Files */,
+			);
+			path = Dhakir;
+			sourceTree = "<group>";
+		};
+		2D6B158B194C247100C1D815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0029FF19501CBF00AE08EC /* Localizable.strings */,
+				2D6B158C194C247100C1D815 /* Dhakir-Info.plist */,
+				2D6B158D194C247100C1D815 /* InfoPlist.strings */,
+				2D6B1590194C247100C1D815 /* main.m */,
+				2D6B1592194C247100C1D815 /* Dhakir-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D6B15B0194C247100C1D815 /* DhakirTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B15B6194C247100C1D815 /* DhakirTests.m */,
+				2D6B15B1194C247100C1D815 /* Supporting Files */,
+			);
+			path = DhakirTests;
+			sourceTree = "<group>";
+		};
+		2D6B15B1194C247100C1D815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B15B2194C247100C1D815 /* DhakirTests-Info.plist */,
+				2D6B15B3194C247100C1D815 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6B157E194C247100C1D815 /* Dhakir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6B15BA194C247100C1D815 /* Build configuration list for PBXNativeTarget "Dhakir" */;
+			buildPhases = (
+				2D6B157B194C247100C1D815 /* Sources */,
+				2D6B157C194C247100C1D815 /* Frameworks */,
+				2D6B157D194C247100C1D815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dhakir;
+			productName = Dhakir;
+			productReference = 2D6B157F194C247100C1D815 /* Dhakir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D6B15A7194C247100C1D815 /* DhakirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6B15BD194C247100C1D815 /* Build configuration list for PBXNativeTarget "DhakirTests" */;
+			buildPhases = (
+				2D6B15A4194C247100C1D815 /* Sources */,
+				2D6B15A5194C247100C1D815 /* Frameworks */,
+				2D6B15A6194C247100C1D815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6B15AF194C247100C1D815 /* PBXTargetDependency */,
+			);
+			name = DhakirTests;
+			productName = DhakirTests;
+			productReference = 2D6B15A8194C247100C1D815 /* DhakirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6B1577194C247100C1D815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = m4u_;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobware4u;
+				TargetAttributes = {
+					2D6B15A7194C247100C1D815 = {
+						TestTargetID = 2D6B157E194C247100C1D815;
+					};
+				};
+			};
+			buildConfigurationList = 2D6B157A194C247100C1D815 /* Build configuration list for PBXProject "Dhakir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D6B1576194C247100C1D815;
+			productRefGroup = 2D6B1580194C247100C1D815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6B157E194C247100C1D815 /* Dhakir */,
+				2D6B15A7194C247100C1D815 /* DhakirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6B157D194C247100C1D815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B15A3194C247100C1D815 /* Images.xcassets in Resources */,
+				2D002A0019501CBF00AE08EC /* Localizable.strings in Resources */,
+				2D6B158F194C247100C1D815 /* InfoPlist.strings in Resources */,
+				2D002A0A1950318C00AE08EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6B15A6194C247100C1D815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B15B5194C247100C1D815 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6B157B194C247100C1D815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B1591194C247100C1D815 /* main.m in Sources */,
+				2D6B15A1194C247100C1D815 /* m4u_DetailViewController.m in Sources */,
+				2D6B15C8194D9F8B00C1D815 /* m4u_LoginViewController.m in Sources */,
+				2D6B159E194C247100C1D815 /* m4u_MasterViewController.m in Sources */,
+				2D0029F8194F3E8100AE08EC /* m4u_EncryptUtils.m in Sources */,
+				2D6B15CB194DADB200C1D815 /* m4u_SettingsViewController.m in Sources */,
+				2D0029C5194ED0D700AE08EC /* JNKeychain.m in Sources */,
+				2D0029CB194ED35900AE08EC /* m4u_DbUtils.m in Sources */,
+				2D6B159B194C247100C1D815 /* Dhakir.xcdatamodeld in Sources */,
+				2D7766231951261700074D8B /* PDFRenderer.m in Sources */,
+				2D0029FB194F3F3D00AE08EC /* NSData+Encryption.m in Sources */,
+				2D0029F5194F05F000AE08EC /* m4u_FileUtils.m in Sources */,
+				2D002A0F1950368D00AE08EC /* m4u_CommonUtils.m in Sources */,
+				2D0029FE19501B7C00AE08EC /* m4u_ViewUtils.m in Sources */,
+				2D6B1595194C247100C1D815 /* m4u_AppDelegate.m in Sources */,
+				2D6B15C2194C28E500C1D815 /* Data.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6B15A4194C247100C1D815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B15B7194C247100C1D815 /* DhakirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D6B15AF194C247100C1D815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6B157E194C247100C1D815 /* Dhakir */;
+			targetProxy = 2D6B15AE194C247100C1D815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D002A051950318C00AE08EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D002A061950318C00AE08EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6B158D194C247100C1D815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6B158E194C247100C1D815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D6B15B3194C247100C1D815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6B15B4194C247100C1D815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D6B15B8194C247100C1D815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D6B15B9194C247100C1D815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6B15BB194C247100C1D815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dhakir/Dhakir-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					ZipKit/,
+				);
+				INFOPLIST_FILE = "Dhakir/Dhakir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D6B15BC194C247100C1D815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dhakir/Dhakir-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					ZipKit/,
+				);
+				INFOPLIST_FILE = "Dhakir/Dhakir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D6B15BE194C247100C1D815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dhakir.app/Dhakir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dhakir/Dhakir-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DhakirTests/DhakirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2D6B15BF194C247100C1D815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dhakir.app/Dhakir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dhakir/Dhakir-Prefix.pch";
+				INFOPLIST_FILE = "DhakirTests/DhakirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6B157A194C247100C1D815 /* Build configuration list for PBXProject "Dhakir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6B15B8194C247100C1D815 /* Debug */,
+				2D6B15B9194C247100C1D815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6B15BA194C247100C1D815 /* Build configuration list for PBXNativeTarget "Dhakir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6B15BB194C247100C1D815 /* Debug */,
+				2D6B15BC194C247100C1D815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6B15BD194C247100C1D815 /* Build configuration list for PBXNativeTarget "DhakirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6B15BE194C247100C1D815 /* Debug */,
+				2D6B15BF194C247100C1D815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D6B1599194C247100C1D815 /* Dhakir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D6B159A194C247100C1D815 /* Dhakir.xcdatamodel */,
+			);
+			currentVersion = 2D6B159A194C247100C1D815 /* Dhakir.xcdatamodel */;
+			path = Dhakir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D6B1577194C247100C1D815 /* Project object */;
+}
