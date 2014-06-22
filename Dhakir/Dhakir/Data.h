@@ -12,9 +12,9 @@
 
 @interface Data : NSManagedObject
 
-@property (nonatomic, retain) NSString * title;
-@property (nonatomic, retain) NSString * username;
-@property (nonatomic, retain) NSString * password;
-@property (nonatomic, retain) NSString * notes;
+@property (nonatomic, retain) NSString* title;
+@property (nonatomic, retain) NSData* username;
+@property (nonatomic, retain) NSData* password;
+@property (nonatomic, retain) NSData* notes;
 
 @end

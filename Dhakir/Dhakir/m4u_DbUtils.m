@@ -27,9 +27,9 @@
     {
         results = [results stringByAppendingString:[NSString stringWithFormat:@"%@,%@,%@,%@,\n",
                                                         data.title,
-                                                        data.username,
-                                                        data.password,
-                                                        data.notes]];
+                                                        [m4u_EncryptUtils decrypt:data.username],
+                                                        [m4u_EncryptUtils decrypt:data.password],
+                                                        [m4u_EncryptUtils decrypt:data.notes]]];
     }
     return results;
 }
