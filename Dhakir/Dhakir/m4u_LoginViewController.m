@@ -38,8 +38,8 @@
 
 - (void) loginButtonPress:(id) sender
 {
-    NSString* passStored = [JNKeychain loadValueForKey:@"m4u_dhakir_lp"];
-    if([passwordTextField.text isEqualToString:passStored]) {
+    NSString* passStored = [JNKeychain loadValueForKey:PASSWORD];
+    if(passStored == nil || [passwordTextField.text isEqualToString:passStored]) {
         [self performSegueWithIdentifier:@"loginSuccess" sender:@"success"];
     } else {
         messageLabel.textColor = [UIColor redColor];

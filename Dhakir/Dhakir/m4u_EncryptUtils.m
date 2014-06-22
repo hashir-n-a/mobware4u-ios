@@ -33,11 +33,11 @@
 
 +(NSString*) getKey
 {
-    NSData* key = [JNKeychain loadValueForKey:@"m4u_dhakir_lkey"];
+    NSData* key = [JNKeychain loadValueForKey:KEY];
     if(key == nil || [key length] == 0) {
         // empty
         key = [self random128BitAESKey];
-        [JNKeychain saveValue:key forKey:@"m4u_dhakir_lkey"];
+        [JNKeychain saveValue:key forKey:KEY];
     }
     return [self convertToString:key];
 }
@@ -69,8 +69,8 @@
 }
 
 + (void) clearCredentials {
-    [JNKeychain saveValue:@"" forKey:@"m4u_dhakir_lkey"];
-    [JNKeychain saveValue:@"" forKey:@"m4u_dhakir_lp"];
+    [JNKeychain saveValue:@"" forKey:KEY];
+    [JNKeychain saveValue:@"" forKey:PASSWORD];
 }
 
 

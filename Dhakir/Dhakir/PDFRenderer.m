@@ -14,7 +14,7 @@
 
 +(void)drawPDF:(NSString*)fileName content:(NSString*) content
 { 
-    NSString* passStored = [JNKeychain loadValueForKey:@"m4u_dhakir_lp"];
+    NSString* passStored = [JNKeychain loadValueForKey:PASSWORD];
   
     NSDictionary *dictionary = [[NSDictionary alloc] initWithObjectsAndKeys:passStored, kCGPDFContextOwnerPassword, passStored, kCGPDFContextUserPassword, kCFBooleanFalse, kCGPDFContextAllowsCopying, kCFBooleanFalse, kCGPDFContextAllowsPrinting,  nil];
 

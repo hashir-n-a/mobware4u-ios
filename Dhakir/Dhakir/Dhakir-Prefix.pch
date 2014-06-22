@@ -25,6 +25,8 @@
 
 #import "m4u_AppDelegate.h"
 
+#define PASSWORD @"m4u_dhakir_lp"
+#define KEY      @"m4u_dhakir_lkey"
 
 #define STR_LOGIN_PASSWORD_PROMPT_MESSAGE     NSLocalizedString(@"LOGIN_PASSWORD_PROMPT_MESSAGE", @"")
 #define STR_LOGIN_PASSWORD_INCORRECT_MESSAGE  NSLocalizedString(@"LOGIN_PASSWORD_INCORRECT_MESSAGE", @"")

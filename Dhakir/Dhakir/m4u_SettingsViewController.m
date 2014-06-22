@@ -66,14 +66,14 @@
 
 -(void) loadPassword
 {
-    passwordTextField.text = [JNKeychain loadValueForKey:@"m4u_dhakir_lp"];
+    passwordTextField.text = [JNKeychain loadValueForKey:PASSWORD];
 }
 
 -(void) saveData
 {
     NSString* passwordEntered = passwordTextField.text;
     if(passwordEntered != nil) {
-        [JNKeychain saveValue:passwordEntered forKey:@"m4u_dhakir_lp"];
+        [JNKeychain saveValue:passwordEntered forKey:PASSWORD];
     }
 }
 
