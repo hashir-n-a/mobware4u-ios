@@ -38,6 +38,12 @@ volatile bool _isInSearchMode = NO;
     [self initializeToolBarItems];
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    _isInSearchMode = NO;
+}
+
 
 - (void) initializeToolBarItems
 {
