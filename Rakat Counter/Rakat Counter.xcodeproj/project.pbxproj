@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DA86AD619572E40003F0470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA86AD519572E40003F0470 /* Foundation.framework */; };
+		2DA86AD819572E40003F0470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA86AD719572E40003F0470 /* CoreGraphics.framework */; };
+		2DA86ADA19572E40003F0470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA86AD919572E40003F0470 /* UIKit.framework */; };
+		2DA86AE019572E40003F0470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DA86ADE19572E40003F0470 /* InfoPlist.strings */; };
+		2DA86AE219572E40003F0470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA86AE119572E40003F0470 /* main.m */; };
+		2DA86AE619572E40003F0470 /* m4uAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA86AE519572E40003F0470 /* m4uAppDelegate.m */; };
+		2DA86AE919572E40003F0470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA86AE719572E40003F0470 /* Main.storyboard */; };
+		2DA86AEC19572E40003F0470 /* m4uMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA86AEB19572E40003F0470 /* m4uMainViewController.m */; };
+		2DA86AEF19572E40003F0470 /* m4uFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA86AEE19572E40003F0470 /* m4uFlipsideViewController.m */; };
+		2DA86AF119572E40003F0470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA86AF019572E40003F0470 /* Images.xcassets */; };
+		2DA86AF819572E40003F0470 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA86AF719572E40003F0470 /* XCTest.framework */; };
+		2DA86AF919572E40003F0470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA86AD519572E40003F0470 /* Foundation.framework */; };
+		2DA86AFA19572E40003F0470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA86AD919572E40003F0470 /* UIKit.framework */; };
+		2DA86B0219572E40003F0470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DA86B0019572E40003F0470 /* InfoPlist.strings */; };
+		2DA86B0419572E40003F0470 /* Rakat_CounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA86B0319572E40003F0470 /* Rakat_CounterTests.m */; };
+		2DA86B0F195740E3003F0470 /* m4u_Preference.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA86B0E195740E3003F0470 /* m4u_Preference.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA86AFB19572E40003F0470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA86ACA19572E40003F0470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA86AD119572E40003F0470;
+			remoteInfo = "Rakat Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DA86AD219572E40003F0470 /* Rakat Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rakat Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA86AD519572E40003F0470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DA86AD719572E40003F0470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DA86AD919572E40003F0470 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DA86ADD19572E40003F0470 /* Rakat Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rakat Counter-Info.plist"; sourceTree = "<group>"; };
+		2DA86ADF19572E40003F0470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DA86AE119572E40003F0470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DA86AE319572E40003F0470 /* Rakat Counter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rakat Counter-Prefix.pch"; sourceTree = "<group>"; };
+		2DA86AE419572E40003F0470 /* m4uAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m4uAppDelegate.h; sourceTree = "<group>"; };
+		2DA86AE519572E40003F0470 /* m4uAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m4uAppDelegate.m; sourceTree = "<group>"; };
+		2DA86AE819572E40003F0470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA86AEA19572E40003F0470 /* m4uMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m4uMainViewController.h; sourceTree = "<group>"; };
+		2DA86AEB19572E40003F0470 /* m4uMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m4uMainViewController.m; sourceTree = "<group>"; };
+		2DA86AED19572E40003F0470 /* m4uFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m4uFlipsideViewController.h; sourceTree = "<group>"; };
+		2DA86AEE19572E40003F0470 /* m4uFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = m4uFlipsideViewController.m; sourceTree = "<group>"; };
+		2DA86AF019572E40003F0470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DA86AF619572E40003F0470 /* Rakat CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rakat CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA86AF719572E40003F0470 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2DA86AFF19572E40003F0470 /* Rakat CounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rakat CounterTests-Info.plist"; sourceTree = "<group>"; };
+		2DA86B0119572E40003F0470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DA86B0319572E40003F0470 /* Rakat_CounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rakat_CounterTests.m; sourceTree = "<group>"; };
+		2DA86B0D195740E3003F0470 /* m4u_Preference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m4u_Preference.h; sourceTree = "<group>"; };
+		2DA86B0E195740E3003F0470 /* m4u_Preference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m4u_Preference.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA86ACF19572E40003F0470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA86AD819572E40003F0470 /* CoreGraphics.framework in Frameworks */,
+				2DA86ADA19572E40003F0470 /* UIKit.framework in Frameworks */,
+				2DA86AD619572E40003F0470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA86AF319572E40003F0470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA86AF819572E40003F0470 /* XCTest.framework in Frameworks */,
+				2DA86AFA19572E40003F0470 /* UIKit.framework in Frameworks */,
+				2DA86AF919572E40003F0470 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA86AC919572E40003F0470 = {
+			isa = PBXGroup;
+			children = (
+				2DA86ADB19572E40003F0470 /* Rakat Counter */,
+				2DA86AFD19572E40003F0470 /* Rakat CounterTests */,
+				2DA86AD419572E40003F0470 /* Frameworks */,
+				2DA86AD319572E40003F0470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA86AD319572E40003F0470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA86AD219572E40003F0470 /* Rakat Counter.app */,
+				2DA86AF619572E40003F0470 /* Rakat CounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA86AD419572E40003F0470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA86AD519572E40003F0470 /* Foundation.framework */,
+				2DA86AD719572E40003F0470 /* CoreGraphics.framework */,
+				2DA86AD919572E40003F0470 /* UIKit.framework */,
+				2DA86AF719572E40003F0470 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DA86ADB19572E40003F0470 /* Rakat Counter */ = {
+			isa = PBXGroup;
+			children = (
+				2DA86AE419572E40003F0470 /* m4uAppDelegate.h */,
+				2DA86AE519572E40003F0470 /* m4uAppDelegate.m */,
+				2DA86AE719572E40003F0470 /* Main.storyboard */,
+				2DA86AEA19572E40003F0470 /* m4uMainViewController.h */,
+				2DA86AEB19572E40003F0470 /* m4uMainViewController.m */,
+				2DA86AED19572E40003F0470 /* m4uFlipsideViewController.h */,
+				2DA86AEE19572E40003F0470 /* m4uFlipsideViewController.m */,
+				2DA86AF019572E40003F0470 /* Images.xcassets */,
+				2DA86ADC19572E40003F0470 /* Supporting Files */,
+				2DA86B0D195740E3003F0470 /* m4u_Preference.h */,
+				2DA86B0E195740E3003F0470 /* m4u_Preference.m */,
+			);
+			path = "Rakat Counter";
+			sourceTree = "<group>";
+		};
+		2DA86ADC19572E40003F0470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DA86ADD19572E40003F0470 /* Rakat Counter-Info.plist */,
+				2DA86ADE19572E40003F0470 /* InfoPlist.strings */,
+				2DA86AE119572E40003F0470 /* main.m */,
+				2DA86AE319572E40003F0470 /* Rakat Counter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DA86AFD19572E40003F0470 /* Rakat CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA86B0319572E40003F0470 /* Rakat_CounterTests.m */,
+				2DA86AFE19572E40003F0470 /* Supporting Files */,
+			);
+			path = "Rakat CounterTests";
+			sourceTree = "<group>";
+		};
+		2DA86AFE19572E40003F0470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DA86AFF19572E40003F0470 /* Rakat CounterTests-Info.plist */,
+				2DA86B0019572E40003F0470 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA86AD119572E40003F0470 /* Rakat Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA86B0719572E40003F0470 /* Build configuration list for PBXNativeTarget "Rakat Counter" */;
+			buildPhases = (
+				2DA86ACE19572E40003F0470 /* Sources */,
+				2DA86ACF19572E40003F0470 /* Frameworks */,
+				2DA86AD019572E40003F0470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rakat Counter";
+			productName = "Rakat Counter";
+			productReference = 2DA86AD219572E40003F0470 /* Rakat Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA86AF519572E40003F0470 /* Rakat CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA86B0A19572E40003F0470 /* Build configuration list for PBXNativeTarget "Rakat CounterTests" */;
+			buildPhases = (
+				2DA86AF219572E40003F0470 /* Sources */,
+				2DA86AF319572E40003F0470 /* Frameworks */,
+				2DA86AF419572E40003F0470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA86AFC19572E40003F0470 /* PBXTargetDependency */,
+			);
+			name = "Rakat CounterTests";
+			productName = "Rakat CounterTests";
+			productReference = 2DA86AF619572E40003F0470 /* Rakat CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA86ACA19572E40003F0470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = m4u;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobware4u;
+				TargetAttributes = {
+					2DA86AF519572E40003F0470 = {
+						TestTargetID = 2DA86AD119572E40003F0470;
+					};
+				};
+			};
+			buildConfigurationList = 2DA86ACD19572E40003F0470 /* Build configuration list for PBXProject "Rakat Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA86AC919572E40003F0470;
+			productRefGroup = 2DA86AD319572E40003F0470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA86AD119572E40003F0470 /* Rakat Counter */,
+				2DA86AF519572E40003F0470 /* Rakat CounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA86AD019572E40003F0470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA86AF119572E40003F0470 /* Images.xcassets in Resources */,
+				2DA86AE019572E40003F0470 /* InfoPlist.strings in Resources */,
+				2DA86AE919572E40003F0470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA86AF419572E40003F0470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA86B0219572E40003F0470 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA86ACE19572E40003F0470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA86AE219572E40003F0470 /* main.m in Sources */,
+				2DA86B0F195740E3003F0470 /* m4u_Preference.m in Sources */,
+				2DA86AEC19572E40003F0470 /* m4uMainViewController.m in Sources */,
+				2DA86AE619572E40003F0470 /* m4uAppDelegate.m in Sources */,
+				2DA86AEF19572E40003F0470 /* m4uFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA86AF219572E40003F0470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA86B0419572E40003F0470 /* Rakat_CounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA86AFC19572E40003F0470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA86AD119572E40003F0470 /* Rakat Counter */;
+			targetProxy = 2DA86AFB19572E40003F0470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA86ADE19572E40003F0470 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA86ADF19572E40003F0470 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DA86AE719572E40003F0470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA86AE819572E40003F0470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA86B0019572E40003F0470 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA86B0119572E40003F0470 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA86B0519572E40003F0470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DA86B0619572E40003F0470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA86B0819572E40003F0470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rakat Counter/Rakat Counter-Prefix.pch";
+				INFOPLIST_FILE = "Rakat Counter/Rakat Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DA86B0919572E40003F0470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rakat Counter/Rakat Counter-Prefix.pch";
+				INFOPLIST_FILE = "Rakat Counter/Rakat Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2DA86B0B19572E40003F0470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rakat Counter.app/Rakat Counter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rakat Counter/Rakat Counter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rakat CounterTests/Rakat CounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2DA86B0C19572E40003F0470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rakat Counter.app/Rakat Counter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rakat Counter/Rakat Counter-Prefix.pch";
+				INFOPLIST_FILE = "Rakat CounterTests/Rakat CounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA86ACD19572E40003F0470 /* Build configuration list for PBXProject "Rakat Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA86B0519572E40003F0470 /* Debug */,
+				2DA86B0619572E40003F0470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA86B0719572E40003F0470 /* Build configuration list for PBXNativeTarget "Rakat Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA86B0819572E40003F0470 /* Debug */,
+				2DA86B0919572E40003F0470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DA86B0A19572E40003F0470 /* Build configuration list for PBXNativeTarget "Rakat CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA86B0B19572E40003F0470 /* Debug */,
+				2DA86B0C19572E40003F0470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA86ACA19572E40003F0470 /* Project object */;
+}
